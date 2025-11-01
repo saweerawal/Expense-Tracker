@@ -25,10 +25,7 @@ SECRET_KEY = 'django-insecure-$z+$4ms5@y0qop5(#4*c1ve$gjoqy04u50)b6im%ximk8-k5vh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["spendwhyse.netlify.app", 'localhost',
-    '127.0.0.1',
-    '.onrender.com',
-    os.environ.get('RENDER_EXTERNAL_HOSTNAME')]
+ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://expense-tracker-5-zhq1.onrender.com',
